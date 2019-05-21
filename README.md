@@ -6,10 +6,19 @@ I will be using data from
 https://confluence.csiro.au/display/Digiscape/Climate+Forecast+Data+aggregation
 https://dcdp.research.csiro.au/silo?lat=-35.4184&lon=149.0937&format=csv&start=19600101
 
+The data was collected at 
+Tuggeranong(Isabella Plains) Weather Recording Station
+Falconer Street Monash ACT
+latitude            -35.4184
+longitude           149.0937
+
 The data is presented as a long string with spaces for line breaks and commas for column breaks.
 I transferred the data as a txt file and then saved to a csv file.
 
 There are two header rows. The first provides variable names and the second provides units which each variable was measured in.
+
+date,rad,tmax,tmin,rain,vp,evap
+-,MJ/m^2,oC,oC,mm,hPa,mm
 
 DATE                    date          dd/mm/yyyy
 
